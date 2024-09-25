@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(176, 200, 223);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 1rem;
+}
+
+.nome {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tituloProfissional {
+    color: #666;
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    background-color: rgb(8, 8, 156);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+section h3 {
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+ul li {
+    margin: 1rem;
+}
+
+p {
+    margin: 5px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center; 
+    list-style-type: none; 
+}
+
+#footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(8, 8, 156);
+    color: white;
+    border-radius: 8px;
+}
+
+@media (max-width: 950px) {
+    nav ul li {
+        display: block;
+    }
+}
